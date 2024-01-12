@@ -1,0 +1,42 @@
+@media all and (max-width: 768px) {
+    .header {
+        width: 100%;
+    }
+        .header_container {
+            width: 100%;
+
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: flex-start;
+        }
+            .logo {
+                margin-left: 10px;
+                background: transparent;
+            }
+            .menu_container {
+                width: 100%;
+            }
+                .menu {
+                    width: 100%;
+
+                    display: none;
+                    flex-flow: column nowrap;
+                    text-align: center;
+                    background: #FAF3F0;
+                }             
+                .menu.open {
+                    display: flex;
+                }
+            .hamburger {
+                display: block;
+
+                position: absolute;
+                top: 1rem;
+                right: 1.4rem;
+                border: 0;
+            }
+            .hamburger span {
+                font-size: 2.5rem;
+            }
+}           

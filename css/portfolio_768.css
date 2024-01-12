@@ -1,0 +1,55 @@
+@media all and (max-width: 768px) {
+    .portfolio {
+        width: 100%;
+
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+        .portfolio_web {
+            width: 80%;
+            display: flex;
+            flex-flow: column nowrap;
+        }
+            .web_box {
+                width: 100%;
+                height: auto;
+                margin-bottom: 30px;
+            }
+                .web_somenail {
+                    width: 90%;
+                    margin: 15px auto;
+                    display: flex;
+                }
+                
+                .somenail_explantion {
+                    width: 90%;
+                    margin: 10px auto;
+                    font-size: 1rem;
+                    font-weight: bold;
+                    line-height: 25px;
+                    text-align: start;
+                }
+                    .somenail_explantion span {
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                    }
+                    .web_button {
+                        width: 70px;
+                        height: 25px;
+                        margin: 5px;
+
+                    }
+                        .web_button span {
+                            font-size: 1rem;
+                            font-weight: bold;
+                        }
+
+
+        .portfolio_design{
+            width: 80%;
+
+            display: flex;
+            flex-flow: column nowrap;
+        }
+}

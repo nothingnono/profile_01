@@ -1,0 +1,78 @@
+.profile {
+    width: 100%;
+    max-width: 1200px;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+    .profile_text {
+        font-family: 'Koulen', sans-serif;
+        font-size: 2.5rem;
+        text-align: center;
+
+        margin: 100px 0px 50px 0px;
+    }
+        .profile_text::after {
+            position: absolute;
+            width: 34px;
+            height: 4px;
+            left: 50%;
+
+            display: block;
+            transform: translateX(-50%);
+            content: "";
+
+            background-color: #B4FF9F;
+        }
+    .profile_box {
+        width: 100%;
+
+        display: flex;
+        flex-flow: row wrap;
+
+        border: 1px solid #fff;
+        border-radius: 25px;
+        background:  rgba(255, 255, 255, 0.3);
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 6px 12px;
+    }
+        .pro_img_box {
+            width: 50%;
+        }
+            .profile_img {
+                margin: 50px 150px;
+            }
+        .profile_about {
+            width: 40%;
+            margin: 100px auto;
+
+            line-height: 45px;
+            font-size: 1.2rem;
+        }
+        .profile_about02 {
+            width: 50%;
+            text-align: center;
+            line-height: 40px;
+        }
+            .wise {
+                margin: 0;
+                font-family: 'Yellowtail', cursive;
+                font-size: 1.8rem;
+            }
+        .profile_skills {
+            width: 50%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+            .skills_text {
+                text-align: center;
+                font-size: 1.5rem;
+            }
+                .skills_logo {
+                    display: inline-block;
+                    content: "";
+                    margin: 15px 12px;
+                }
+                .skills_logo:hover {
+                    filter: drop-shadow(rgba(255, 0, 0, 0.3) 0px 6px 12px);
+                }
+            

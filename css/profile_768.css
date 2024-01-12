@@ -1,0 +1,36 @@
+@media all and (max-width:768px) {
+    .profile {
+        width: 100%;
+
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+        .profile_box {
+            width: 80%;
+        
+            display: flex;
+            flex-flow: column nowrap;
+        }
+            .pro_img_box {
+                width: 100%;
+            }
+                .profile_img {
+                    margin: 10px 42.5px;
+                }
+            .profile_about {
+                width: 100%;
+                margin: 30px auto;
+                padding: 0px 30px;
+    
+                line-height: 45px;
+                font-size: 1.2rem;
+            }
+            .profile_about02 {
+                width: 100%;
+            }
+                .wise { font-size: 1.6rem; }
+            .profile_skills {
+                width: 100%;
+            }    
+}

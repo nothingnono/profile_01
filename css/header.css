@@ -1,0 +1,57 @@
+.header {
+    position: fixed;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+}
+.header.header_border {
+    background: #f9f9f9;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+    .header_container {
+        width: 1200px;
+        max-width: 1200px;
+        padding: 0 auto;
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+        .logo {
+            width: 75px;
+            
+            display: flex;
+            align-items: center;
+            gap: 10px; 
+        }
+        .menu_container {
+            width: 500px;
+            display: flex;
+            justify-content: flex-end;
+        }
+            .menu {
+                width: 500px;
+
+                display: flex;
+                justify-content: space-around;
+                font-family: 'Koulen', sans-serif;
+            }
+                .menu_item {
+                    display: block;
+                    margin: 0 15px;
+
+                    border-bottom: 3px solid transparent;
+                    transition: 5ms all;
+
+                    color: #050a13;
+                    font-weight: 400;
+                    font-size: 1.8rem;
+                }
+                .menu_item:hover {
+                    color: #B4FF9F;
+                    border-bottom: 3px solid #B4FF9F;
+                }
+
+        .hamburger { display: none; }

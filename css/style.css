@@ -1,0 +1,26 @@
+:root {
+    --color-white: #fff;
+    --color-black: #050a13;
+    
+    --color-base1: #FAF3F0;
+    --color-base2: #D4E2D4;
+    --color-base3: #FFCACC;
+    --color-base4: #DBC4F0;
+    --color-point: #537188;
+}
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    padding: 0;
+    background: #FAF3F0;
+
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 10pt;
+    color: #050a13;
+}
+    ul, li {
+        margin: 0;
+        padding: 0;
+        list-style: none; 
+    }
+    a { text-decoration: none; }
